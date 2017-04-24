@@ -101,8 +101,8 @@ public class Ticket {
     }
 
     public String toString(){
-        return("ID: " + this.ticketID + " Issue: " + this.description + " Priority: " + this.priority + " Reported by: "
-                + this.reporter + " Reported on: " + this.dateReported);
+        return("[" + "ID: " + this.ticketID + "]" + "["+ " Issue: " + this.description + "]" + "[" + " Priority: " + this.priority + "]"+ "[" + " Reported by: "
+                + this.reporter + "]"+ "[" + " Reported on: " + this.dateReported + "]"+ "[" + " Resolved on: " + this.resDate + "]"+ "["+ " Resolution: " + this.fix + "]");
     }
 }
 
